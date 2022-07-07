@@ -1,6 +1,6 @@
 import { Avatar } from '@mui/material';
 import React from 'react';
-// import "./SelectBarChat.css";
+import "./SelectBarChat.css";
 // individual componenets in the chat bar
 // ie each contact and chat as a component
 
