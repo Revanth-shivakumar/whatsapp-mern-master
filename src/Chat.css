@@ -4,3 +4,23 @@
     flex:0.65;
 
 }
+.chatheader{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+
+}
+.chatheader_info{
+    flex: 1;
+    padding-left: 20px;
+
+}
+.chatheader_info>h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+
+}
+.chatheader_info>p{
+    color: gray;
+}

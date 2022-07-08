@@ -35,5 +35,9 @@ margin:10px;
     outline-width: 0;/*gets rid of blue outline*/ 
     margin-left: 10px;
 }
-
+.selectbar{
+    
+    overflow-y: scroll;
+    background-color: azure;
+}
 

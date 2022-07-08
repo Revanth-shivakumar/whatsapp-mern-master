@@ -7,7 +7,7 @@ import React from 'react';
 function SelectBarChat() {
   return (
     <div className="selectbarChat" >
-        <Avatar/>r
+        <Avatar/>
         {/* contains name and other details  */}
        <div className='selectbar_info'>
             <h2>Name</h2>

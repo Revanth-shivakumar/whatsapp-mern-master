@@ -6,6 +6,8 @@ import ChatIcon from '@mui/icons-material/Chat';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Avatar } from '@mui/material';
 import { SearchOutlined } from '@mui/icons-material';
+import SelectBarChat from './SelectBarChat';
+
 
 function SelectBar() {
   return (
