@@ -31,7 +31,7 @@ function Chat() {
       </div>
       <div className='chat_body'>
 
-         <p>
+         <p className='chat_message'>
           <span className='chat_name'>Belieber</span>
           This is a message
           <span className='chat_time'>

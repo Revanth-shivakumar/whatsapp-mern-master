@@ -32,3 +32,19 @@
     background-position: center;
     background-repeat: repeat;
 }
+.chat_message{
+    font-size: 20 px;
+    position: relative;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+
+}
+.chat_name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
