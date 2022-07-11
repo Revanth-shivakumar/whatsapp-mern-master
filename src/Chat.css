@@ -46,5 +46,19 @@
     position: absolute;
     top: -15px;
     font-weight: 800;
-    font-size: xx-small;
+    font-size: x-small;
+}
+.chat_receiver{
+    background-color: lightgreen;
+    margin-left: auto;
+    padding-left: 2px;
+
+}
+.chat_footer{
+    position: absolute;
+    bottom:3%;
+    width:58%;
+    background-color: white;
+    border-radius: 25px;
+    left:36%;
 }

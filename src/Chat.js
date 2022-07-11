@@ -1,4 +1,4 @@
-import { AttachFile, MoreVert, SearchOutlined } from '@mui/icons-material';
+import { AttachFile, InsertEmoticon, MoreVert, SearchOutlined } from '@mui/icons-material';
 import { Avatar, IconButton } from '@mui/material';
 import React from 'react'
 import './Chat.css';
@@ -31,14 +31,34 @@ function Chat() {
       </div>
       <div className='chat_body'>
 
-         <p className='chat_message'>
-          <span className='chat_name'>Belieber</span>
+         
+          {/* try converting this into a component */}
+            <p className='chat_message'>
+          <span className='chat_name'>Mark</span>
           This is a message
           <span className='chat_time'>
             {new Date().toUTCString()}
           </span>
           
             </p> 
+
+        <p className='chat_message chat_receiver'>
+          <span className='chat_name'>Manager</span>
+          This is a message
+          <span className='chat_time'>
+            {new Date().toUTCString()}
+          </span>
+          
+         </p> 
+
+
+       <div className='chat_footer'>
+        <div className='chat_emoji'>
+        <InsertEmoticon/>
+        </div>
+        
+        
+        </div>  
       </div>
    </div>
   )
