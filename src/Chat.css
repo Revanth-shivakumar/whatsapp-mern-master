@@ -27,7 +27,8 @@
 .chat_body{
     flex: 1;
     padding: 25px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--WAKqnINn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/tw0nawnvo0zpgm5nx4fp.png );
     background-position: center;
     background-repeat: repeat;
@@ -59,11 +60,29 @@
     position: relative;
     left:-3%;
     padding-left: -10px;
-    bottom:-72%;
+    bottom:-69%;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    border-radius: 25px;
     width: 106%;
 
+}
+.chat_footer>form{
+    flex: 1;
+    display:flex ;
+
+}
+.chat_footer>form>input{
+    flex: 1;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+
+}
+.chat_footer>form>button{
+    display: none;
+}
+.chat_footer>.MuiSvgIcon-root{
+    color: grey;
+    padding: 10px;
 }
