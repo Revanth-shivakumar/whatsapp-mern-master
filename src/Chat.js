@@ -1,4 +1,5 @@
 import { AttachFile, InsertEmoticon, MoreVert, SearchOutlined } from '@mui/icons-material';
+import MicIcon from '@mui/icons-material/Mic';
 import { Avatar, IconButton } from '@mui/material';
 import React from 'react'
 import './Chat.css';
@@ -53,10 +54,18 @@ function Chat() {
 
 
        <div className='chat_footer'>
-        <div className='chat_emoji'>
         <InsertEmoticon/>
-        </div>
-        
+        <form>
+
+          <input placeholder='Type a Message ...' type="text"/>
+          <button  type="submit">
+
+            Send
+          </button>
+          
+          
+        </form>
+        <MicIcon/>       
         
         </div>  
       </div>

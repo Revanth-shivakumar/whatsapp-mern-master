@@ -55,10 +55,15 @@
 
 }
 .chat_footer{
-    position: absolute;
-    bottom:3%;
-    width:58%;
+    display: flex;
+    position: relative;
+    left:-3%;
+    padding-left: -10px;
+    bottom:-72%;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
     border-radius: 25px;
-    left:36%;
+    width: 106%;
+
 }
